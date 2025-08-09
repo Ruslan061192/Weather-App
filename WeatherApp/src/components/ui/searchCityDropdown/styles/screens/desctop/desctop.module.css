@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+  .dropdawnContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 2%;
+    height: 10em;
+    width: 23vw;
+    background: rgb(211, 209, 209);
+    z-index: 7;
+  }
+  .dropdawnContainer::-webkit-scrollbar {
+    width: 0;
+  }
+  .dropdawnContainer .dropdawnItem {
+    padding-left: 2%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+  .dropdawnContainer .dropdawnItem.activeItem {
+    background-color: #f5f5f5;
+  }
+  .dropdawnContainer .dropdawnItem.activeItem span {
+    border-bottom: 2px solid black;
+  }
+}/*# sourceMappingURL=desctop.module.css.map */

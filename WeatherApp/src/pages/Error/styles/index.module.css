@@ -1,0 +1,10 @@
+.pageWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pageWrap .errorTitle {
+  color: rgba(255, 255, 255, 0.7);
+}/*# sourceMappingURL=index.module.css.map */

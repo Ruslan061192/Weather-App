@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+  .dropdawnContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 2%;
+    height: 10em;
+    width: 23vw;
+    background: rgb(211, 209, 209);
+    z-index: 7;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+    .dropdawnItem {
+      padding-left: 2%;
+      margin-top: 2%;
+      cursor: pointer;
+      &.activeItem {
+        background-color: #f5f5f5;
+        span {
+          border-bottom: 2px solid black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+@media (min-width: 768px) {
+  .authFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 50%;
+    border: none;
+  }
+  .authFormContainer .inputWrap {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    height: 30%;
+  }
+  .authFormContainer .inputWrap .label {
+    font-size: 70%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 5px;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: right;
+  }
+  .authFormContainer .inputWrap .input {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.1%;
+    border: none;
+    text-align: start;
+    width: 85%;
+    height: 40%;
+    font-size: 70%;
+    background: none;
+  }
+  .authFormContainer .inputWrap .input:focus {
+    border-radius: 2px;
+    outline: none;
+  }
+  .authFormContainer .buttonWrap {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 30%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+  .authFormContainer .buttonWrap button {
+    font-size: 70%;
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.7);
+    background: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  .authFormContainer .buttonWrap button:active {
+    color: black;
+  }
+  .authFormContainer .buttonWrap button:hover {
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=tablet.module.css.map */

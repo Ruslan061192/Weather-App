@@ -1,0 +1,103 @@
+@media (min-width: 768px) {
+  .wrap {
+    width: 55vw;
+    // height: 100vh;
+    margin-top: 15%;
+    padding-top: 5%;
+    margin-top: 10%;
+    padding-top: 10%;
+    // border: 2px solid red;
+    border-top: 2px solid white;
+    // overflow: scroll;
+    // overflow-x: hidden;
+    // &::-webkit-scrollbar {
+    //   width: 0;
+    // }
+
+    .weatherTitle {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      color: rgb(255, 255, 255, 100%);
+      //   color: black;
+
+      font-size: 2.5vw;
+    }
+
+    .weatherCards {
+      // border: 1px solid white;
+      margin-top: 10%;
+      width: 100%;
+      height: 65%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 5;
+      // overflow: scroll;
+      // overflow-x: hidden;
+      // overflow-y: visible;
+      &::-webkit-scrollbar {
+        width: 0.5rem;
+      }
+      &::-webkit-scrollbar-track {
+        border-right: 1px solid rgb(255, 255, 255, 70%);
+      }
+      &::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom right, white 0%, white 100%);
+        border-radius: 5px;
+      }
+
+      .weatherCard {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        padding-right: 5%;
+        padding-left: 5%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 25%;
+
+        .weatherIcon {
+          width: 3.5vw;
+          img {
+            width: 100%;
+          }
+        }
+        .descriptionBlock {
+          // border: 1px solid white;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          // justify-content: space-around;
+          align-items: center;
+          .time {
+            color: rgb(255, 255, 255, 100%);
+            // color: black;
+            // border: 1px solid white;
+            width: 100%;
+            height: 50%;
+            font-size: 2vw;
+            text-align: left;
+          }
+          .description {
+            color: rgb(255, 255, 255, 70%);
+            // border: 1px solid white;
+            box-sizing: border-box;
+            text-align: left;
+            width: 100%;
+            height: 50%;
+            font-size: 2vw;
+            font-weight: normal;
+          }
+        }
+        .infoTemp {
+          color: rgb(255, 255, 255, 70%);
+          font-size: 3vh;
+          // border: 1px solid white;
+          width: 25%;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

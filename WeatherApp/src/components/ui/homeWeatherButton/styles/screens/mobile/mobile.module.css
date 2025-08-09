@@ -1,0 +1,29 @@
+@media (min-width: 375px) {
+  .homeButtonContainer {
+    width: 10%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeButtonContainer .buttonWrap {
+    margin-left: 5%;
+    width: 40%;
+    height: 100%;
+  }
+  .homeButtonContainer .buttonWrap .homeButton {
+    background: none;
+    width: 7vw;
+    height: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  .homeButtonContainer .buttonWrap .homeButton img {
+    width: 100%;
+    cursor: pointer;
+  }
+  .homeButtonContainer .homeText {
+    display: none;
+  }
+}/*# sourceMappingURL=mobile.module.css.map */

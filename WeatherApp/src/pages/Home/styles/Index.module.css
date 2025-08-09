@@ -1,0 +1,4 @@
+@import "./screens/mobile/mobile.module.css";
+@import "./screens/tablet/tablet.module.css";
+@import "./screens/desctop/desctop.module.css";
+@import "./screens/xl/xl.module.css";/*# sourceMappingURL=Index.module.css.map */

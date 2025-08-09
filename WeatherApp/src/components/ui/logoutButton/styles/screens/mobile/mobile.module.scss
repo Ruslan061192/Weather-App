@@ -1,0 +1,35 @@
+@media (min-width: 375px) {
+  .logoutContainer {
+    width: 10%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .buttonContainer {
+      margin-left: 5%;
+      width: 40%;
+      height: 100%;
+      .buttonLogout {
+        width: 7vw;
+        height: 100%;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 100%;
+
+          cursor: pointer;
+          &:hover {
+            width: 1.5vw;
+          }
+        }
+      }
+    }
+    span {
+      display: none;
+    }
+  }
+}

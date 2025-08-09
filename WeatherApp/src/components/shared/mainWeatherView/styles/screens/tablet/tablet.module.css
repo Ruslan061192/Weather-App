@@ -1,0 +1,70 @@
+@media (min-width: 768px) {
+  .container {
+    width: 70vw;
+    height: 25vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    margin-right: 20%;
+    margin-left: 10%;
+  }
+  .container .temp {
+    width: 30%;
+    height: 50%;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 13vw;
+    margin-right: 1%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+  }
+  .container .temp span {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+  }
+  .container .locationAndDate {
+    box-sizing: content-box;
+    margin-right: 0.5rem;
+    height: 60%;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .container .locationAndDate .location {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    line-height: 1em;
+    height: 50%;
+    font-weight: normal;
+    font-size: 5vw;
+  }
+  .container .locationAndDate .dateNow {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    height: 15%;
+    font-weight: normal;
+    font-size: 2vw;
+  }
+  .container .weatherIcon {
+    height: 30%;
+    width: 12%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+  .container .weatherIcon img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=tablet.module.css.map */

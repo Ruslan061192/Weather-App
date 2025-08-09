@@ -1,0 +1,18 @@
+.wrap {
+  width: 100%;
+  height: 100vh;
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.wrap .authForms {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 25%;
+}/*# sourceMappingURL=index.module.css.map */

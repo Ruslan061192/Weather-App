@@ -1,0 +1,36 @@
+@media (min-width: 1000px) {
+  .homeButtonContainer {
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .homeButtonContainer .buttonWrap {
+    margin-left: 0;
+    width: 40%;
+    height: 100%;
+  }
+  .homeButtonContainer .buttonWrap .homeButton {
+    background: none;
+    width: 70%;
+    height: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  .homeButtonContainer .buttonWrap .homeButton img {
+    width: 90%;
+    cursor: pointer;
+  }
+  .homeButtonContainer .buttonWrap .homeButton img:hover {
+    width: 100%;
+  }
+  .homeButtonContainer .homeText {
+    display: block;
+    margin-right: 3%;
+    font-size: 0.7vw;
+    width: 70%;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}/*# sourceMappingURL=desctop.module.css.map */

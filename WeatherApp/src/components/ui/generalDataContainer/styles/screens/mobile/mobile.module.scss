@@ -1,0 +1,48 @@
+@media (min-width: 375px) {
+  .generalData {
+    margin-top: 10%;
+    width: 90%;
+    height: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .titleDescription {
+      height: 80%;
+      font-size: 4vw;
+      color: rgb(255, 255, 255, 100%);
+    }
+
+    .dataRow {
+      width: 85%;
+      height: 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1em;
+      > span {
+        color: rgb(255, 255, 255, 70%);
+        font-size: 3.8vw;
+      }
+      div {
+        width: 40%;
+        height: 60%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-left: 5%;
+        span {
+          font-size: 3.8vw;
+          color: rgb(255, 255, 255, 100%);
+        }
+        img {
+          padding-left: 5%;
+          width: 5vw;
+          height: 2.5vh;
+        }
+      }
+    }
+  }
+}

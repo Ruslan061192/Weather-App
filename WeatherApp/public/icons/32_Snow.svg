@@ -1,0 +1,16 @@
+<svg width="48.000000" height="48.000000" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip81_5867">
+			<rect id="32icon-grid" rx="0.000000" width="47.000000" height="47.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip81_5882">
+			<rect id="32/Snow" rx="0.000000" width="47.000000" height="47.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip81_5882)">
+		<path id="outline" d="M20.99 24L13.32 28.48L7.24 25.69L5.99 28.44L10.14 30.34L7.86 31.68L9.34 34.28L11.62 32.95L11.18 37.54L14.15 37.82L14.8 31.09L22.48 26.6L22.48 35.62L17.05 39.57L18.81 41.99L22.48 39.33L22.48 42L25.48 42L25.48 39.33L29.14 41.99L30.91 39.57L25.48 35.62L25.48 26.62L33.17 31.12L33.82 37.85L36.79 37.57L36.35 32.98L38.63 34.31L40.11 31.71L37.83 30.37L41.98 28.47L40.73 25.72L34.65 28.51L26.93 24L34.63 19.49L40.75 22.3L42 19.56L37.81 17.63L40.12 16.28L38.63 13.68L36.37 15L36.81 10.45L33.84 10.18L33.19 16.86L25.48 21.37L25.48 12.4L30.94 8.43L29.18 6L25.48 8.69L25.48 6L22.48 6L22.48 8.64L18.84 6L17.08 8.43L22.48 12.35L22.48 21.39L14.83 16.92L14.17 10.14L11.2 10.42L11.65 15.06L9.34 13.71L7.85 16.31L10.12 17.64L6.01 19.53L7.26 22.27L13.3 19.5L20.99 24Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

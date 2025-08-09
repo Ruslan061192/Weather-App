@@ -1,0 +1,42 @@
+@import "./screens/mobile/mobile.module.css";
+@import "./screens/tablet/tablet.module.css";
+@import "./screens/desctop/desctop.module.css";
+// @import "./screens/xl/xl.module.css";
+
+// .homeButtonContainer {
+//   //   border: 1px solid white;
+//   width: 100%;
+//   height: 4%;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   .buttonWrap {
+//     // border: 1px solid white;
+//     margin-left: 5%;
+//     width: 30%;
+//     height: 100%;
+//     .homeButton {
+//       background: none;
+//       width: 100%;
+//       height: 100%;
+//       border: none;
+//       display: flex;
+//       align-items: center;
+//       img {
+//         width: 1.2vw;
+//         cursor: pointer;
+
+//         &:hover {
+//           width: 1.5vw;
+//         }
+//       }
+//     }
+//   }
+//   .homeText {
+//     // border: 1px solid white;
+//     margin-right: 3%;
+//     font-size: 0.7vw;
+//     width: 70%;
+//     color: rgb(255, 255, 255, 70%);
+//   }
+// }

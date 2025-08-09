@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+  .formContainer {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 35vw;
+    z-index: 3;
+  }
+}/*# sourceMappingURL=tablet.module.css.map */

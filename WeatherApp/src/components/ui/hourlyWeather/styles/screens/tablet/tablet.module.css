@@ -1,0 +1,80 @@
+@media (min-width: 768px) {
+  .wrap {
+    width: 55vw;
+    margin-top: 15%;
+    padding-top: 5%;
+    margin-top: 10%;
+    padding-top: 10%;
+    border-top: 2px solid white;
+  }
+  .wrap .weatherTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw;
+  }
+  .wrap .weatherCards {
+    margin-top: 10%;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 5;
+  }
+  .wrap .weatherCards::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  .wrap .weatherCards::-webkit-scrollbar-track {
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+  }
+  .wrap .weatherCards::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom right, white 0%, white 100%);
+    border-radius: 5px;
+  }
+  .wrap .weatherCards .weatherCard {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+  }
+  .wrap .weatherCards .weatherCard .weatherIcon {
+    width: 3.5vw;
+  }
+  .wrap .weatherCards .weatherCard .weatherIcon img {
+    width: 100%;
+  }
+  .wrap .weatherCards .weatherCard .descriptionBlock {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrap .weatherCards .weatherCard .descriptionBlock .time {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    font-size: 2vw;
+    text-align: left;
+  }
+  .wrap .weatherCards .weatherCard .descriptionBlock .description {
+    color: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    height: 50%;
+    font-size: 2vw;
+    font-weight: normal;
+  }
+  .wrap .weatherCards .weatherCard .infoTemp {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 3vh;
+    width: 25%;
+    text-align: right;
+  }
+}/*# sourceMappingURL=tablet.module.css.map */

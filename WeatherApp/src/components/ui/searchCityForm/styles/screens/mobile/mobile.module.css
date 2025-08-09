@@ -1,0 +1,32 @@
+@media (min-width: 375px) {
+  .serchForm {
+    border-bottom: 2px solid white;
+    width: 100%;
+  }
+  .serchForm input {
+    background: none;
+    width: 80%;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 5vw;
+    border: none;
+  }
+  .serchForm input:focus {
+    outline: none;
+  }
+  .serchForm input::-moz-placeholder {
+    font-size: 3.5vw;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .serchForm input::placeholder {
+    font-size: 3.5vw;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .serchForm button {
+    width: 18%;
+    background: none;
+    border: none;
+  }
+  .serchForm button img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=mobile.module.css.map */
