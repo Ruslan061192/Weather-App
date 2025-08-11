@@ -18,7 +18,7 @@ export default function SearchCiityForm({
   handleKeyDown,
 }: ISearchCiityForm) {
   return (
-    <form onSubmit={handleSubmit} className={styles.serchForm}>
+    <form onSubmit={handleSubmit} className={styles?.searchForm ?? ""}>
       <input
         type="text"
         value={value}

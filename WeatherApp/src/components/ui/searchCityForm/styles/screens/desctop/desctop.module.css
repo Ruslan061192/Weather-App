@@ -1,10 +1,10 @@
 @media (min-width: 992px) {
-  .serchForm {
+  .searchForm {
     height: 100%;
     border-bottom: 2px solid white;
     width: 100%;
   }
-  .serchForm input {
+  .searchForm input {
     background: none;
     width: 80%;
     height: 100%;
@@ -12,23 +12,23 @@
     font-size: 1vw;
     border: none;
   }
-  .serchForm input:focus {
+  .searchForm input:focus {
     outline: none;
   }
-  .serchForm input::-moz-placeholder {
+  .searchForm input::-moz-placeholder {
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.7);
   }
-  .serchForm input::placeholder {
+  .searchForm input::placeholder {
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.7);
   }
-  .serchForm button {
+  .searchForm button {
     width: 15%;
     background: none;
     border: none;
   }
-  .serchForm button img {
+  .searchForm button img {
     width: 50%;
   }
 }/*# sourceMappingURL=desctop.module.css.map */
