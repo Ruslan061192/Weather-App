@@ -1,12 +1,14 @@
-import styles from "./styles/Index.module.css";
-import DetailsPanel from "../../components/shared/detailsPanel/DetailsPanel ";
-import MainWeatherView from "../../components/shared/mainWeatherView/MainWeatherView ";
-import AccordeonMenu from "../../components/shared/accordeonMenu/AccordeonMenu";
-import { useWeatherStore } from "../../core/store/useWeatherStore";
-import SearchCity from "../../components/shared/serchCity/SearchCity";
+import styles from "./styles/Index.module.scss";
+import DetailsWeatherPanel from "../../widgets/weather/detailsWeatherPanel/DetailsWeatherPanel";
+import MainWeatherView from "../../widgets/weather/ui/mainWeatherView/MainWeatherView";
+import AccordeonMenu from "../../shared/ui/accordeonMenu/AccordeonMenu";
+import { useWeatherStore } from "../../shared/store/useWeatherStore";
+import SearchCity from "../../widgets/weather/ui/searchCity/SearchCity";
 
 export default function HomePage(): JSX.Element {
   const { isError } = useWeatherStore();
+
+  // console.log("HomePage isError:", isError);
 
   return (
     <div className={styles.homePageWrap}>
@@ -17,9 +19,11 @@ export default function HomePage(): JSX.Element {
           <AccordeonMenu />
           <SearchCity />
           <MainWeatherView />
-          <DetailsPanel />
+          <DetailsWeatherPanel />
         </div>
       )}
     </div>
   );
 }
+
+

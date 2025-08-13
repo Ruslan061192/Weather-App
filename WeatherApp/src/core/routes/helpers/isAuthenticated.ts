@@ -1,6 +1,6 @@
 import { redirect, useNavigate } from "react-router-dom";
-import { useUsersOperationStore } from "../../store/useUsersStore";
-import { AUTH_ROUTE, ERROR_ROUTE, HOME_ROUTE, MAIN } from "../../constants/routesConstants";
+import { useUsersOperationStore } from "../../../shared/store/useUsersStore";
+import { AUTH_ROUTE, ERROR_ROUTE, HOME_ROUTE, MAIN } from "../../../shared/model/constants/routesConstants";
 import { FC } from "react";
 
 

@@ -1,0 +1,30 @@
+@media (min-width: 992px) {
+  .searchForm {
+    height: 100%;
+    border-bottom: 2px solid white;
+    width: 100%;
+    input {
+      background: none;
+      width: 80%;
+      height: 100%;
+      color: rgba(255, 255, 255, 70%);
+      font-size: 1vw;
+      border: none;
+      &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        font-size: 1.2rem;
+        color: rgba(255, 255, 255, 70%);
+      }
+    }
+    button {
+      width: 15%;
+      background: none;
+      border: none;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
