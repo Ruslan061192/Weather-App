@@ -1,7 +1,7 @@
 export const USERS_URL: string = "https://api.escuelajs.co/api/v1"
 export const WEATHER_URL: string = 'http://api.weatherapi.com/v1'
 
-export const FORECAST_DATA_URL: string = "/forecast.json?key=вставьте сюда ключ от Weather API"
+export const FORECAST_DATA_URL: string = "/forecast.json?key=вставьте сюда ключ от Weather APIws"
 export const SERCH_DATA_URL: string = "/search.json?key=вставьте сюда ключ от Weather API"
 
 export const USER_AUTHORIZATION_URL: string = "/auth/login"
