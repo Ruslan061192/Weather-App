@@ -1,0 +1,32 @@
+@media (min-width: 375px) {
+  .searchForm {
+    border-bottom: 2px solid white;
+    width: 100%;
+  }
+  .searchForm input {
+    background: none;
+    width: 80%;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 5vw;
+    border: none;
+  }
+  .searchForm input:focus {
+    outline: none;
+  }
+  .searchForm input::-moz-placeholder {
+    font-size: 3.5vw;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .searchForm input::placeholder {
+    font-size: 3.5vw;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .searchForm button {
+    width: 18%;
+    background: none;
+    border: none;
+  }
+  .searchForm button img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=mobile.module.css.map */

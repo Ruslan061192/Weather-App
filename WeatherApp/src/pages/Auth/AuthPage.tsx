@@ -1,20 +1,24 @@
-import { useUsersStore } from "../../core/store/useUsersStore";
+import { useUsersStore } from "../../shared/store/useUsersStore";
 
-import styles from "./styles/index.module.css";
-import { Authentication } from "../../components/shared/authentication/Authentication";
-import { Registration } from "../../components/shared/registration/Registration";
-import AuthSpinner from "../../components/ui/spinners/authSpinner/AuthSpinner";
+import styles from "./styles/index.module.scss";
+import { Authentication } from "../../widgets/auth/authentication/Authentication";
+import { Registration } from "../../widgets/auth/registration/Registration";
+import AuthSpinner from "../../shared/ui/loaders/authSpinner/AuthSpinner";
 
 export default function AuthPage() {
-  const { isAuth, isLoading } = useUsersStore();
+  const state = useUsersStore();
+
+  // console.log('AuthPage: ', state.isAuth, state.isLoading);
 
   return (
     <div className={styles.wrap}>
       <div className={styles.authForms}>
-        {isLoading && <AuthSpinner />}
-        {isAuth === "Registration" && <Registration />}
-        {isAuth === "Authorization" && <Authentication />}
+        SOMETHING
+        {state.isLoading && <AuthSpinner />}
+        {!state.isAuth && <Registration />}
+        {state.isAuth && <Authentication />}
       </div>
     </div>
   );
 }
+

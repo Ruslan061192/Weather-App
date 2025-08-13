@@ -1,0 +1,47 @@
+@media (min-width: 992px) {
+  .currentWeatherData {
+    margin-top: 0;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .currentWeatherData .titleDescription {
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    width: 100%;
+    height: 10%;
+    font-size: 1.2vw;
+    color: rgb(255, 255, 255);
+  }
+  .currentWeatherData .dataRow {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.3em;
+  }
+  .currentWeatherData .dataRow > span {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1vw;
+  }
+  .currentWeatherData .dataRow div {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 2%;
+  }
+  .currentWeatherData .dataRow div span {
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+  }
+  .currentWeatherData .dataRow div img {
+    width: 40%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=desctop.module.css.map */

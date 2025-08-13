@@ -1,26 +1,21 @@
-import { Navigate, Outlet, useLocation, useNavigate } from "react-router-dom";
-import { AUTH_ROUTE, HOME_ROUTE } from "../constants/routesConstants";
-import { useUsersStore } from "../store/useUsersStore";
+import { Navigate, Outlet } from "react-router-dom";
+import { useUsersStore } from "../../shared/store/useUsersStore";
 import { useEffect } from "react";
-export const isAuth = false;
+import { PATHS } from "../../shared/model/constants/routesConstants";
 
 export default function PrivateRoute() {
-  const { tokensData, getUser } = useUsersStore();
-  const navigate = useNavigate();
-  const location = useLocation();
-  useEffect(() => {
-    const checkUser = () => {
-      if (!tokensData.access_token) {
-        return;
-      }
-      getUser();
-      navigate(HOME_ROUTE);
-    };
-    checkUser();
-  }, [getUser, navigate, tokensData.access_token]);
+  const { tokensData, getUser, userProfile } = useUsersStore();
 
-  if (!tokensData.access_token) {
-    return <Navigate to={AUTH_ROUTE} state={{ from: location }} />;
+  useEffect(() => {
+    if (!tokensData?.access_token || !userProfile) {
+       getUser();
+    }
+  }, [getUser, tokensData?.access_token, userProfile]);
+
+
+  if (!tokensData?.access_token) {
+    return <Navigate to={PATHS.AUTH_ROUTE} />;
   }
-  return <Outlet />;
+
+  return <Outlet/>
 }
