@@ -24,7 +24,7 @@ export const getCurrentCoordsSlice: StateCreator<IGetCurrentCoordsSlice, [], [],
     isLoading: false,
     isError: null,
     currentWeather: null,
-    coords: { lat: null, lon: null },
+    coords: { lat: 55.7506, lon: 37.6175 },
 
     getCurrentCoords: async () => {
         set({ isLoading: true, isError: null });
@@ -35,11 +35,16 @@ export const getCurrentCoordsSlice: StateCreator<IGetCurrentCoordsSlice, [], [],
                 }
             );
 
-            const currentData = await GetWeatherData.getWeather(
-                position.coords.latitude,
-                position.coords.longitude
-            );
+        
 
+               
+        
+        const currentData = await GetWeatherData.getWeather(
+            position.coords.latitude,
+            position.coords.longitude
+        );
+
+        
             set({
                 currentWeather: currentData.data,
                 coords: {
