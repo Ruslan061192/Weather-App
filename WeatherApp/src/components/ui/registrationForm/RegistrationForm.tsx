@@ -1,3 +1,4 @@
+import React from "react";
 import { IUserAuth } from "../../../core/types/userTypes";
 import styles from "./styles/index.module.css";
 

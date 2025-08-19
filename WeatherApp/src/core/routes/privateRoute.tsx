@@ -8,19 +8,19 @@ export default function PrivateRoute() {
   const { tokensData, getUser } = useUsersStore();
   const navigate = useNavigate();
   const location = useLocation();
-  useEffect(() => {
-    const checkUser = () => {
-      if (!tokensData.access_token) {
-        return;
-      }
-      getUser();
-      navigate(HOME_ROUTE);
-    };
-    checkUser();
-  }, [getUser, navigate, tokensData.access_token]);
+  // useEffect(() => {
+  //   const checkUser = () => {
+  //     if (!tokensData.access_token) {
+  //       return;
+  //     }
+  //     getUser();
+  //     navigate(HOME_ROUTE);
+  //   };
+  //   checkUser();
+  // }, [getUser, navigate, tokensData.access_token]);
 
   if (!tokensData.access_token) {
-    return <Navigate to={AUTH_ROUTE} state={{ from: location }} />;
+    return <Navigate to={AUTH_ROUTE} replace state={{ from: location }} />;
   }
   return <Outlet />;
 }
