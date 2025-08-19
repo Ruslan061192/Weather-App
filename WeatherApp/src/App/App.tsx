@@ -7,13 +7,13 @@ import { useUsersStore } from "../core/store/useUsersStore";
 import Spinner from "../components/ui/loadPageSpinner/Spinner";
 
 function App() {
-  const { coords, currentWeather, getWeather, getCurrentCoords, isLoading } =
-    useWeatherStore();
+  const { coords, currentWeather, getWeather, getCurrentCoords, isLoading, isError } =
+  useWeatherStore();
   const { getUser } = useUsersStore();
   const weatherCode = !currentWeather
-    ? undefined
-    : currentWeather?.current?.condition.code;
-
+  ? undefined
+  : currentWeather?.current?.condition.code;
+  
   const weatherBackground = calcWeatherBackground(weatherCode);
 
   useEffect(() => {
@@ -22,6 +22,8 @@ function App() {
       getWeather(coords.lat, coords.lon);
     } else {
       getCurrentCoords();
+          console.log("A");
+
     }
   }, [
     coords.lat,
@@ -31,6 +33,8 @@ function App() {
     currentWeather,
     getUser,
   ]);
+
+  console.log(isError)
 
   return (
     <div className={styles.mainWrap}>
